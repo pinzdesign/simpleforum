@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-04-2016, 03:22:39
+    Author     : Ivan
+*/
+
+html, body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #f5f5f5;
+}
+
+hr {
+    border-color: #ccc;
+}
+
+article {
+    padding: 15px;
+    text-align: justify;
+}
+
+.item {
+    float: left;
+    border: 1px solid #ccc;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: none;
+    transition: all .3s;
+}
+
+.item:hover {
+    border: 1px solid #06273d;
+    box-shadow: 3px 3px 5px #ccc;
+}
+
+.item-icon {
+    color: #777;
+}
+
+.img-user {
+    padding: 5px;
+    width:50%;
+    height:50%;
+    box-shadow: 3px 3px 5px #ccc;
+    border-radius: 50%;
+    margin: 20px;
+    margin-bottom: 5px;
+    max-width: 100px;
+    min-width: 50px;
+}
+
+/* MENU */
+#mainmenu .navbar, .btn-default:focus, .btn-default:hover {
+    border-radius: 0px;
+    background: #06273d;
+    color: #fff;
+}
+
+#mainmenu .navbar-default .navbar-brand, #mainmenu .navbar-default .navbar-nav > li > a {
+    color: #c0d24a;
+    font-size: 17px;
+}
+
+#mainmenu .navbar-default .navbar-brand:hover, #mainmenu .navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+}
+
+#mainmenu .nav-login {
+    padding: 15px;
+}
+
+#mainmenu .nav-login i {
+    color: #fff;
+    font-size: 20px;
+    transition: all .3s;
+    padding-left: 15px;
+}
+
+#mainmenu .nav-login i:hover {
+    color: #000;
+}
+
+/* BOOTSTRAP */
+
+.form-control:focus {
+    border: 1px solid #000;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(13, 13, 13, 0.6);
+}
+
+.btn-default, .btn-default:hover {
+    margin: 15px 0px;
+    width: 100%;
+    background: #06273d;
+    border-radius: 0px;
+    text-shadow: none;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.label-default {
+    padding: 3px 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: lighter;
+    background: #06273d;
+}
+
+.label-default i {
+    
+}
